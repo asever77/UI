@@ -1,0 +1,42 @@
+:root {
+  --gap: 0.8rem;
+
+  --sat: env(safe-area-inset-top);
+  --sar: env(safe-area-inset-right);
+  --sab: env(safe-area-inset-bottom);
+  --sal: env(safe-area-inset-left);
+
+  /* color */
+  --c_primary: #FFD700;
+  --c_sub: #FF612D; 
+
+  /* Grayscale */
+  --gray_100: #000;
+  --gray_95:  #222;
+  --gray_90:  #444;
+  --gray_80:  #666;
+  --gray_70:  #777;
+  --gray_60:  #999;
+  --gray_50:  #ccc;
+  --gray_40:  #d7d7d7;
+  --gray_30:  #e5e5e5;
+  --gray_20:  #eee;
+  --gray_10:  #f7f7f7;
+  --gray_0:   #fff;
+
+  --max_width: 50rem;
+}
+
+//기본간격
+$x0: calc(0.8rem * 0);
+$x1: calc(0.8rem * 1);
+$x2: calc(0.8rem * 2);
+$x3: calc(0.8rem * 3);
+$x4: calc(0.8rem * 4);
+$x5: calc(0.8rem * 5);
+$x6: calc(0.8rem * 6);
+$x7: calc(0.8rem * 7);
+$x8: calc(0.8rem * 8);
+$x9: calc(0.8rem * 9);
+
+$inpH: 4.8rem;
